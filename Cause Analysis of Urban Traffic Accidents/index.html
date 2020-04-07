@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Cause Analysis of UK Traffic Accidents</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+      .lead{
+
+        text-align: justify;
+        text-justify: inter-ideograph;/*IE*/
+
+      }
+    </style>
+  </head>
+
+  <body>
+  
+    <div id="wrapper">
+      
+      <!-- Sidebar -->
+      <div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+          <li class="sidebar-brand"><a href="#">Student Number: 1917280</a></li>
+          <li><a href="index.html">Index</a></li>
+          <li><a href="Que1.html">Que1</a></li>
+          <li><a href="Que2.html">Que2</a></li>
+          <li><a href="Que3.html">Que3</a></li>
+          <li><a href="Conclusion.html">Conclusion</a></li>
+        </ul>
+      </div>
+          
+      <!-- Page content -->
+      <div id="page-content-wrapper">
+        <div class="content-header">
+          <h1>
+            <a id="menu-toggle" href="#" class="btn btn-default"><i class="icon-reorder"></i></a>
+            Cause Analysis of Urban Traffic Accidents
+          </h1>
+        </div>
+        <!-- Keep all page content within the page-content inset div! -->
+        <div class="page-content inset">
+          <div class="row">
+            <div class="col-md-12">
+              <p class="lead">The research on  road traffic safety has an important position . Actually, traffic
+                accidents do not only disrupt the traffic  order but also cause economic losses and casualties.
+                At present, the visualization format of traffic accident information is mainly in the form of histograms
+                and polylines. With the current high volume of  traffic data, traditional visualization models have
+                certain limitations in reflecting the global structure and specific details which are the essential
+                research elements. My study will analysis the British traffic accident data from 2005 to 2015.</p>
+            </div>
+            <div class="col-md-8">
+              <p class="well"><a href="Que1.html">Trend of traffic accidents in the last decade</a></p>
+            </div>
+            <div class="col-md-8">
+              <p class="well"><a href="Que2.html">Traffic Accidents happened in different road Type</a></p>
+            </div>
+            <div class="col-md-8">
+              <p class="well"><a href="Que3.html">Factors Relationship in traffic accidents.</a></p>
+            </div>
+        </div>
+      </div>
+    </div>
+	
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Custom JavaScript for the Menu Toggle -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("active");
+    });
+    </script>
+  </body>
+</html>

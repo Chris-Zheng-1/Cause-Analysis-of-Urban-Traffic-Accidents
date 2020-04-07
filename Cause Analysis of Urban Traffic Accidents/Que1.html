@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Trend of traffic accidents in the last decade</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+  
+    <div id="wrapper">
+      
+      <!-- Sidebar -->
+      <div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+          <li class="sidebar-brand"><a href="#">Student Number: 1917280</a></li>
+          <li><a href="index.html">Index</a></li>
+          <li><a href="Que1.html">Que1</a></li>
+          <li><a href="Que2.html">Que2</a></li>
+          <li><a href="Que3.html">Que3</a></li>
+          <li><a href="Conclusion.html">Conclusion</a></li>
+        </ul>
+      </div>
+          
+      <!-- Page content -->
+      <div id="page-content-wrapper">
+        <div class="content-header">
+          <h1>
+            <a id="menu-toggle" href="#" class="btn btn-default"><i class="icon-reorder"></i></a>
+            Trend of traffic accidents in the last decade
+          </h1>
+        </div>
+        <!-- Keep all page content within the page-content inset div! -->
+        <div class="page-content inset">
+          <div class="row">
+            <div class="col-md-pull-4">
+              <p class="well">This picture shows the trend in the number of traffic accidents in the UK from 2005 to
+                2015. We can intuitively see that the number of traffic accidents has been declining in recent years.
+                From an average point of view, it has fallen from about 500 in 2005 to about 300 in 2015. For example,
+                the number of traffic accidents occurring at least during Christmas each year is related to people ’s
+                travel volume. In recent years, the average number of traffic accidents has decreased, which may be
+                related to new traffic regulations issued by the government, such as speed limits and other highway
+                regulations
+              </p>
+            </div>
+            <svg width="980" height="800"></svg>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+	
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="js/plot1.js"></script>
+
+    <!-- Custom JavaScript for the Menu Toggle -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("active");
+    });
+    </script>
+  </body>
+</html>
